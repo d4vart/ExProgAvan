@@ -1,4 +1,7 @@
 package com.atp.ListaEx.repository;
 
-public interface LIvroRepository {
+import com.atp.ListaEx.model.LivroModel;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface LIvroRepository extends JpaRepository<LivroModel, Long> {
 }
