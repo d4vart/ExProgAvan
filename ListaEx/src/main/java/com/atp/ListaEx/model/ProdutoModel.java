@@ -21,5 +21,35 @@ public class ProdutoModel {
 
     private Integer estoque;
 
+    public Integer getEstoque() {
+        return estoque;
+    }
 
+    public void setEstoque(Integer estoque) {
+        this.estoque = estoque;
+    }
+
+    public Long getId() {
+        return Id;
+    }
+
+    public void setId(Long id) {
+        Id = id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public BigDecimal getPreco() {
+        return preco;
+    }
+
+    public void setPreco(BigDecimal preco) {
+        this.preco = preco;
+    }
 }
